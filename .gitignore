@@ -1,0 +1,13 @@
+# Never commit these, even here
+*config.json
+*token.json
+*credential*
+*secret*
+*.env
+*cookies*
+*_profile/
+
+__pycache__/
+*.pyc
+*.log
+.DS_Store
