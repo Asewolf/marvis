@@ -41,12 +41,21 @@ git clone https://github.com/<you>/marvis
 
 On day one it knows nothing. That is correct. It is supposed to start empty.
 
+## Skills
+
+`.claude/skills/` holds three skills: reading links that sit behind a login, grading a post
+before it ships, and pay-as-you-go image and video generation. The rest of the working set
+comes from other authors, and [`docs/skills.md`](docs/skills.md) lists every one of them
+with its author, license and install command.
+
 ## Start here
 
 - [`docs/memory-system.md`](docs/memory-system.md) — the design, and why one fact per file
 - [`docs/feedback-loop.md`](docs/feedback-loop.md) — turning corrections into permanent behaviour
 - [`docs/getting-started.md`](docs/getting-started.md) — the first week
 - [`scripts/backup_brain.py`](scripts/backup_brain.py) — nightly backup with a secret scanner
+- [`docs/skills.md`](docs/skills.md) — the skill set, who wrote each one, how to install it
+- [`docs/browser-automation.md`](docs/browser-automation.md) — reading links behind a login, and filling forms
 
 ## A warning worth reading
 
