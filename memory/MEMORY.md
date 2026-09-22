@@ -17,6 +17,7 @@ Keep the content in the memory files. This is a table of contents.
 ## Reference
 
 - [Example reference](reference_example.md) - pointers outward, never secrets
+- [Hermes Agent](reference_hermes_agent.md) - setup and model choice for local file editing
 
 ---
 
